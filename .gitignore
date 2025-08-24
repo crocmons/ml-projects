@@ -1,0 +1,38 @@
+# Large data files and directories
+data/
+*.pkl
+*.zip
+*.7z
+
+# Specific large files
+ideal_model.pkl
+dog-breed-identification/*.zip
+data/bluebook-for-bulldozers/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
